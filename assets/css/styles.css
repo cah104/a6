@@ -1,0 +1,42 @@
+.container{
+	background-color: #ff6666;
+}
+.gallery{
+  
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	padding: 50px;
+}
+
+.gallery img {
+    height: 100%;
+}
+
+.gallery a {
+    width: 240px;
+    height: 180px;
+  
+    margin: 4px 6px;
+   
+}
+header{
+	background-color: black;
+	color: white;
+	position: center;
+	font-size: 60px;
+}
+
+.intro{
+	padding: 20px;
+	color: white;
+	font-size: 30px;
+}
+
+p, .list{
+	color: white;
+}
+
+.itemList{
+	margin: 30px;
+}
